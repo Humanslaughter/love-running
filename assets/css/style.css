@@ -77,7 +77,7 @@ h1, h2 {
     background-image: url('../css/images/hero-image.webp');
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: center;
+    background-position-x: center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -136,7 +136,6 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -167,4 +166,30 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background-image: url('../css/images/ethos-center-image.jpg');
+    ackground-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    height: 100%;
+    border-radius: 50%;
 }
